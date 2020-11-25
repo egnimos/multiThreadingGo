@@ -28,11 +28,39 @@ func StartThreadsA() {
 }
 
 func main() {
-	//for i := 1; i <= 2; i++ {
-	StartThreadsA()
+	//for i := 1; i <= 21; i++ {
+	 count()
+	//StartThreadsA()
 	//RunAndWait()
 	//}
-	time.Sleep(1 * time.Millisecond)
+	//time.Sleep(1 * time.Millisecond)
+
+	//wait group test
+	//wg := sync.WaitGroup{}
+	//wg.Wait()
+	//fmt.Println("done!!")
+	//count()
+}
+
+//wait group
+func count() {
+	wg := sync.WaitGroup{}
+	x := 0
+	wg.Add(5)
+	for i := 0; i < 5; i++ {
+		go increment(&x, &wg)
+	}
+	wg.Wait()
+	fmt.Printf("%d\n", x)
+}
+
+func increment(x *int, wg *sync.WaitGroup) {
+	for i :=0; i < 100; i++ {
+
+		*x += 1
+
+	}
+	wg.Done()
 }
 
 func RunAndWait() {

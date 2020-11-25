@@ -20,16 +20,154 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027eb9f9-d047-4be3-b99f-e1236995049c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/multiThreadingGo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boids/boid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boids/boids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boids/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boids/vector2d.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/practice/mutexsYNC.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/stingy_spendy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channels/windDirection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/condVariable/stingy-spendy-cond.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filesearch/concurrentFileSearch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrixCondBroadCast/matrixCondBroadCast.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/apr2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/aug2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/dec2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/feb2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jan2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jul2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/jun2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/mar2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/may2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/nov2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/oct2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metarfiles/sep2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sync/conditionalLock/condLock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/practice/mutexsYNC.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/practice/mutexsYNC.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +213,37 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/egnimos/multiThreadingGo/boids">
-    <configuration name="go build github.com/egnimos/multiThreadingGo/boids" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/matrixCondBroadCast" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/egnimos/multiThreadingGo/sync/conditionalLock">
+    <configuration name="go build github.com/egnimos/multiThreadingGo/condVariable" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="multiThreadingGo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/boids/main.go" />
-      <package value="github.com/egnimos/multiThreadingGo/boids" />
+      <filePath value="$PROJECT_DIR$/condVariable/stingy-spendy-cond.go" />
+      <package value="github.com/egnimos/multiThreadingGo/condVariable" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/egnimos/multiThreadingGo/sync" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/egnimos/multiThreadingGo/matrixCondBroadCast" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="multiThreadingGo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/sync/stingy_spendy.go" />
-      <package value="github.com/egnimos/multiThreadingGo/sync" />
+      <filePath value="$PROJECT_DIR$/matrixCondBroadCast/matrixCondBroadCast.go" />
+      <package value="github.com/egnimos/multiThreadingGo/matrixCondBroadCast" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/egnimos/multiThreadingGo/sync/conditionalLock" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="multiThreadingGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/sync/conditionalLock/condLock.go" />
+      <package value="github.com/egnimos/multiThreadingGo/sync/conditionalLock" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -103,11 +256,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/egnimos/multiThreadingGo/threadPool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="multiThreadingGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/threadPool/shoelace.go" />
+      <package value="github.com/egnimos/multiThreadingGo/threadPool" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/egnimos/multiThreadingGo/boids" />
+        <item itemvalue="Go Build.go build github.com/egnimos/multiThreadingGo/sync/conditionalLock" />
+        <item itemvalue="Go Build.go build github.com/egnimos/multiThreadingGo/matrixCondBroadCast" />
+        <item itemvalue="Go Build.go build github.com/egnimos/multiThreadingGo/condVariable" />
+        <item itemvalue="Go Build.go build github.com/egnimos/multiThreadingGo/threadPool" />
         <item itemvalue="Go Build.go build github.com/egnimos/multiThreadingGo/sync/practice" />
-        <item itemvalue="Go Build.go build github.com/egnimos/multiThreadingGo/sync" />
       </list>
     </recent_temporary>
   </component>
@@ -148,30 +312,46 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2069" y="343" width="503" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1605824351994" />
-    <state x="2109" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605851979231">
+    <state x="2109" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606043660314">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2109" y="298" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1605851979231" />
-    <state width="1878" height="166" key="GridCell.Tab.0.bottom" timestamp="1605888063521">
+    <state x="2109" y="298" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606043660314" />
+    <state width="1878" height="165" key="GridCell.Tab.0.bottom" timestamp="1606240806840">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1308" height="166" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1605886780257" />
-    <state width="1878" height="166" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1605888063521" />
-    <state width="1878" height="166" key="GridCell.Tab.0.center" timestamp="1605888063520">
+    <state width="1878" height="165" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606240806840" />
+    <state width="1878" height="165" key="GridCell.Tab.0.center" timestamp="1606240806839">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1308" height="166" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1605886780257" />
-    <state width="1878" height="166" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1605888063520" />
-    <state width="1878" height="166" key="GridCell.Tab.0.left" timestamp="1605888063520">
+    <state width="1878" height="165" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606240806839" />
+    <state width="1878" height="165" key="GridCell.Tab.0.left" timestamp="1606240806839">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1308" height="166" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1605886780257" />
-    <state width="1878" height="166" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1605888063520" />
-    <state width="1878" height="166" key="GridCell.Tab.0.right" timestamp="1605888063521">
+    <state width="1878" height="165" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606240806839" />
+    <state width="1878" height="165" key="GridCell.Tab.0.right" timestamp="1606240806840">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1308" height="166" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1605886780257" />
-    <state width="1878" height="166" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1605888063521" />
+    <state width="1878" height="165" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606240806840" />
+    <state width="1878" height="328" key="GridCell.Tab.1.bottom" timestamp="1606239724604">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.1.bottom/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606239724604" />
+    <state width="1878" height="328" key="GridCell.Tab.1.center" timestamp="1606239724604">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.1.center/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606239724604" />
+    <state width="1878" height="328" key="GridCell.Tab.1.left" timestamp="1606239724603">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.1.left/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606239724602" />
+    <state width="1878" height="328" key="GridCell.Tab.1.right" timestamp="1606239724604">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.1.right/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1606239724604" />
     <state x="400" y="92" width="556" height="617" key="RollbackChangesDialog" timestamp="1605773959753">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
